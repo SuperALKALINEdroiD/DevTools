@@ -7,12 +7,13 @@ const links = [
   { path: '/text-converter', name: 'Text Converter', icon: '↔️' },
   { path: '/jwt-decoder', name: 'JWT Decoder', icon: '🔑' },
   { path: '/timestamp-converter', name: 'Timestamp Converter', icon: '⏰' },
+  { path: '/js-notebook', name: 'Javascript Notebook', icon: '⏰' },
 ]
 </script>
 
 <template>
   <aside class="w-64 bg-gray-800 p-4">
-    <h1 class="text-xl font-bold mb-8 text-center">DevTools Collection</h1>
+    <h1 class="text-xl font-bold mb-8 text-center">Dev ToolBox</h1>
     <nav>
       <RouterLink
         v-for="link in links"
